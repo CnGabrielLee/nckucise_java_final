@@ -63,7 +63,7 @@ public class GamePanel extends JPanel implements Runnable{
          //this.add(magicJiu2);
     }
 
-public void jiuButtonActionPerformed(ActionEvent e){ // oh my god what a save
+    public void jiuButtonActionPerformed(ActionEvent e){ // oh my god what a save
         getFocus();
         List<SuperObject> playerList = ObjectController.getObjController().getMap().get("player");
         Player player = (Player) playerList.get(0);
